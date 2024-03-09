@@ -41,10 +41,11 @@ body{  font-family: Arial, Helvetica, sans-serif;padding: 90px 20px 0;
 }
 .toggle{
     color: white;
-    background:black;
+    background:blue;
     border: none;
-    font-size: 16px;
-    padding: 12px 16px;
+    font-size: 30px;
+    padding: 0 20px;
+    line-height: 60;
     display: none;
     cursor: pointer;
 }
@@ -56,8 +57,7 @@ body{  font-family: Arial, Helvetica, sans-serif;padding: 90px 20px 0;
     cursor: pointer;
 }
 @media(max-width:768px){
-    body{
-        background-color: "#c7c94a;";
+    body{background-color: "#c7c94a;";
         padding-top: 70px;
 }
 .header{ height: 60px;
@@ -67,7 +67,6 @@ body{  font-family: Arial, Helvetica, sans-serif;padding: 90px 20px 0;
     line-height: 60px;
 }
 .nav-menu{flex-direction: column;
-    align-items: center;
     margin-right: 20px;
     background-color:rgb(129, 24, 24);
     position: fixed;
@@ -77,20 +76,17 @@ body{  font-family: Arial, Helvetica, sans-serif;padding: 90px 20px 0;
     padding: 20px 0;
     height: calc(100%-60px);
     overflow: auto;
-    left: 100%;
-    transition: left 0.3s;
 }
 .nmi{line-height: 70px;
 }
 .nml:hover{background: none;
     color: deepskyblue;
 }
-.toggle{
+.toggle{color: white;
     background-color: #88a5b1;
     border: none;
-    color: white;
-    font-size: 16px;
-    padding: 12px 16px;
+    font-size: 30px;
+    padding: 0 20px;
     cursor: pointer;
     display: block;
 }
@@ -100,7 +96,6 @@ body{  font-family: Arial, Helvetica, sans-serif;padding: 90px 20px 0;
     padding: 12px 16px;
     font-size: 16px;
     cursor: pointer
-
 }
 .nav-menvi{
     left: 0;
